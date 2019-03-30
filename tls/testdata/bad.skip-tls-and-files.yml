@@ -1,0 +1,5 @@
+insecureSkipTLS: true
+caCertificateFile: testdata/files/ca-certificate.pem
+certificateFile: testdata/files/rsa-no-password.certificate.pem
+keyFile: testdata/files/rsa-no-password.key.pem
+

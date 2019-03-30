@@ -1,0 +1,12 @@
+version: "3"
+
+services:
+    vault.locol.dev:
+        image: vault:1.0.3
+        ports:
+            - 8200:8200
+        privileged: true
+        environment:
+            # server
+            VAULT_DEV_ROOT_TOKEN_ID: "vault_root_token"
+            VAULT_DEV_LISTEN_ADDRESS: "0.0.0.0:8200"
